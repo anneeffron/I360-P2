@@ -14,7 +14,7 @@ body{
 }
 
 .quote{
-  height: 450px;
+  height: 500px;
   width: 700px;
   background-color: rgba(240,240,240, 0.5);
   box-shadow: 12px 3px 3px rgba(0, 0, 0, 0.08);
@@ -49,11 +49,14 @@ p:first-of-type::after{
   font-family: 'Georgia', sans-serif;
   color: rgba(0,0,0,0.7);
   position: absolute;
-  bottom: 30px;
+  bottom: 60px;
   right: 390px;
 
 }
-
+.honey{
+  font-family: 'Tangerine', cursive;
+  font-size: 50px;
+}
 /*images*/
 .crown{
   position:relative;
