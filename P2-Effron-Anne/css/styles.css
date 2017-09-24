@@ -1,4 +1,5 @@
 /* apply a natural box layout model to all elements */
+/*colors: #FCCF00, rgb(252,207,0)*/
 html {
   box-sizing: border-box;
 }
@@ -13,13 +14,22 @@ body{
 }
 
 .quote{
-  height: 300px;
-  width: 400px;
+  height: 500px;
+  width: 500px;
   margin: 100px auto 0;
   padding: 2.0em;
 }
-/*typography*/
 
+
+/*typography*/
+p{
+  font-family: 'Overpass Mono 700', monospace, sans-serif;
+  font-size: 30px;
+}
+/*lines*/
+.key{
+  /*from W3 schools*/
+}
 /* MEDIA QUERIES */
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
