@@ -1,0 +1,87 @@
+/* apply a natural box layout model to all elements */
+/*colors: #FCCF00, rgb(252,207,0)*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Structure */
+body{
+  background: white url('../images/binary_image.png') fixed right top;
+  background-size: cover;
+}
+
+.quote{
+  height: 450px;
+  width: 600px;
+  background-color: rgba(240,240,240, 0.5);
+  box-shadow: 12px 3px 3px rgba(0, 0, 0, 0.08);
+  margin: 50px auto 0;
+  padding: 3.0em;
+}
+i{
+  color: #FCCF00;
+}
+
+
+/*typography*/
+p{
+  font-family: 'Overpass Mono 700', monospace, sans-serif;
+  font-size: 30px;
+  text-align: left;
+}
+p:first-of-type::before{
+  content: open-quote;
+  font-size: 140px;
+  font-family: 'Georgia',sans-serif;
+  color: rgba(0,0,0,0.7);
+  position: absolute;
+}
+
+p:first-of-type::after{
+  content: close-quote;
+  font-size: 140px;
+  font-family: 'Georgia', sans-serif;
+  color: rgba(0,0,0,0.7);
+  position: absolute;
+
+}
+
+/*images*/
+.crown{
+  position: relative;
+
+}
+
+.lock{
+  position: relative;
+
+}
+.key{
+  position: relative;
+
+}
+
+
+/* MEDIA QUERIES */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
